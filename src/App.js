@@ -1,6 +1,7 @@
 import Form from "./Components/Forms/Form";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
+import '../src/index.css';
 
 import { useState } from "react";
 

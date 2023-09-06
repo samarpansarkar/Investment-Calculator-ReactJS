@@ -1,5 +1,5 @@
 import React from "react";
-import classes from './Footer.css';
+import './Footer.css';
 
 const formatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -10,7 +10,7 @@ const formatter = new Intl.NumberFormat('en-US', {
 
 const Footer = (props) => {
   return (
-    <table className={classes.result}>
+    <table className="result">
       <thead>
         <tr>
           <th>Year</th>
